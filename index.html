@@ -11,6 +11,10 @@
       Landing Page
     </title>
     <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon/favicon.png">
+    <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
     />
@@ -268,29 +272,46 @@
             <h2 class="section-title">Contacts Us</h2>
 
             <div class="contacts-wrapper">
-              <form class="contacts-form">
+              <form id="contactForm" class="contacts-form">
                 <input
                   type="text"
+                  name="name"
                   placeholder="Name" required
                   class="contacts-forms"
                 />
                 <input
+                  name="email"
                   type="email"
                   placeholder="Email" required
                   class="contacts-forms"
                 />
                 <textarea
-                  placeholder="Message"
-                  required
+                  name="message"
+                  placeholder="Message" required
                   class="contacts-forms-textarea"
                 ></textarea>
-                <button type="reset">Send</button>
+                <button type="submit">Send</button>
               </form>
 
               <div class="contacts-info">
-                <p><strong>Phone</strong><br>+1 234 5555-55-55</p>
-                <p><strong>Email</strong><br>hello@email.com</p>
-                <p><strong>Address</strong><br>400 first ave<br>Suite 700<br>Minneapolis, MN 55401</p>
+                <p class="contacts-p">
+                  <strong>Phone</strong><br>
+                  <a href="tel:+12345555555" class="contacts-info__link">+1 234 5555-55-55</a>
+                </p>
+                <p class="contacts-p">
+                  <strong>Email</strong><br>
+                  <a href="mailto:hello@email.com" class="contacts-info__link">hello@email.com</a>
+                </p>
+                <p class="contacts-p">
+                  <strong>Address</strong><br>
+                  <a href="https://www.google.com/maps?q=400+first+ave+Suite+700+Minneapolis+MN+55401"
+                    target="_blank" rel="noopener noreferrer"
+                    class="contacts-info__link">
+                    400 first ave<br>
+                    Suite 700<br>
+                    Minneapolis, MN 55401
+                  </a>
+                </p>
               </div>
             </div>
           </section>

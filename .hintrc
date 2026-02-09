@@ -19,7 +19,8 @@
           "flex-direction",
           "align-items",
           "background-position: center right",
-          "background-position: 70% center"
+          "background-position: 70% center",
+          "-webkit-overflow-scrolling"
         ]
       }
     ]

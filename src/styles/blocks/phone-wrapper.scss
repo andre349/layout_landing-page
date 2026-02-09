@@ -1,12 +1,13 @@
 .phone-wrapper {
   position: relative;
+    font-family: 'Poppins', sans-serif;
+
 
   .phone-tooltip {
     position: absolute;
     top: 50%;
     right: 100%;
     transform: translateY(-50%);
-    background-color: $nav__link-color;
     color: $page-color;
     padding: 6px 12px;
     border-radius: 8px;
