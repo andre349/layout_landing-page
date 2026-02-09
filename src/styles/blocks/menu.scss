@@ -5,10 +5,12 @@
   background-color: $menu-bg-color;
   font-weight: $menu-font-weight;
   text-transform: uppercase;
+  overflow: auto;
+
+
 
   &__top {
     margin-bottom: 24px;
-
 
     @include on-tablet {
       margin-bottom: 0;
@@ -46,4 +48,8 @@
     letter-spacing: 2px;
     text-decoration: none;
   }
+}
+
+.page:has(.page__menu:target) {
+  overflow: hidden; /* not to scroll the page */
 }

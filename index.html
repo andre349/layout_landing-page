@@ -272,7 +272,9 @@
             <h2 class="section-title">Contacts Us</h2>
 
             <div class="contacts-wrapper">
-              <form id="contactForm" class="contacts-form">
+              <form onsubmit="this.reset(); return false;"
+                id="contactForm" class="contacts-form"
+              >
                 <input
                   type="text"
                   name="name"

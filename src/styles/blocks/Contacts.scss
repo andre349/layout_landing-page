@@ -7,7 +7,7 @@
 
   &-p {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
   }
 
   &-form {
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-self: start;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     margin-bottom: 0;
     gap: 24px;
 
@@ -47,7 +47,7 @@
 
     &__link {
       margin: 0;
-      font-family: 'Poppins', sans-serif;
+      font-family: Poppins, sans-serif;
       color: $page-color;
     }
   }
@@ -71,7 +71,7 @@
   }
 
   &-forms-textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     padding: 14px 16px;
     border-radius: $radius-textarea;
     border: none;
@@ -93,7 +93,7 @@
   }
 
   button {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     padding: 14.5px;
     border-radius: $radius-button;
     border: none;
